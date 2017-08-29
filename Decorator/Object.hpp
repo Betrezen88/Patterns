@@ -7,7 +7,7 @@ class Object
 {
 public:
     virtual ~Object() {}
-    virtual std::string name() = 0;
+    virtual std::string name() const = 0;
 };
 
 #endif // OBJECT_HPP

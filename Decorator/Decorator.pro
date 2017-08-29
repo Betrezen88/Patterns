@@ -7,4 +7,6 @@ SOURCES += main.cpp
 
 HEADERS += \
     Object.hpp \
-    ConcreteObject.hpp
+    ConcreteObject.hpp \
+    Decorator.hpp \
+    DecoratorRed.hpp

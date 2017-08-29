@@ -9,7 +9,7 @@ public:
     ConcreteObject(const std::string name) : m_name(name) {}
     ~ConcreteObject() {}
 
-    std::string name() override { return m_name; }
+    std::string name() const override { return m_name; }
 
 private:
     std::string m_name;
