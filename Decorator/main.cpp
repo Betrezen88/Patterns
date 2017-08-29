@@ -1,9 +1,12 @@
 #include <iostream>
 
-using namespace std;
+#include "Object.hpp"
+#include "ConcreteObject.hpp"
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    auto object = ConcreteObject("Concrete object");
+
+    std::cout << object.name() << std::endl;
     return 0;
 }
